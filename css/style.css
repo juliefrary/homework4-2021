@@ -57,7 +57,7 @@ p{
 a{
   /*Req 4*/
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -79,8 +79,9 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0820;
 }
@@ -103,8 +104,7 @@ tr:nth-child(even){
 
 /*Req 6f*/
 tr:hover{
-  background-color: rgb(126,8,32);
-  opacity:0.6;
+  background-color: rgb(126,8,32, 0.6);
 }
 
 /*Req 7*/
@@ -141,5 +141,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0px;
+  left: 0px;
 }
 
