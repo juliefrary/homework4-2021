@@ -104,7 +104,7 @@ tr:nth-child(even){
 
 /*Req 6f*/
 tr:hover{
-  background-color: rgb(126,8,32, 0.6);
+  background-color: rgb(126,8,32, 0.25);
 }
 
 /*Req 7*/
